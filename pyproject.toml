@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pysparktest"
+version = "0.1.0"
+description = ""
+authors = ["Satoshi SUZUKI <studio3104.com@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "^3.3.2"
+
+[tool.poetry.dev-dependencies]
+pytest-mock = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
